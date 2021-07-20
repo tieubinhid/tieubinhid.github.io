@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ID_TieuBinh</title>
+</head>
+	
+<link href="ID_TieuBinh.css" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	
+<body>
+	<div class="header">
+		<img src="Logo-VTK-xanh-dương.png" class="logo" alt="logotrekking">
+		<div>
+			<ul>
+				<li class="gc">HOME</li>
+				<li class="gc">ABOUT</li>
+				<li class="gc">TOURS</li>
+				<li class="gc">NEWS</li>
+				<li class="gc">HOMESTAY</li>
+				<li class="gc">BLOG</li>
+			</ul>
+		</div>
+		<form>
+			<label><i class="fas fa-search look"></i></label>
+			<input type="search" placeholder="SEARCH" class="timkiem">
+		</form>
+	</div>
+		
+	
+	
+	<div class="bodybai">
+		<div class="qcao">
+			<img src="simon-english-48nerZQCHgo-unsplash.jpg" alt="qcao1" class="qc1">
+			<img src="jc-gellidon-oxL4w5W9C0c-unsplash.jpg" alt="qc2" class="qc2">
+			<form class="dangky">
+				<h1>ANNAPURNA BASE CAMP</h1>
+				<input type="text" placeholder="Your Name" class="f1"><br>
+				<input type="email" placeholder="Your Email" class="f1"><br>
+				<input type="text" placeholder="Your Number phone" class="f1"><br>
+				<h5>Vui lòng điền đầy đủ thông tin</h5>
+				<input type="submit" value="Đăng Ký" class="dk">
+			</form>
+		</div>
+		
+		<div class="vb">
+			<div class="slideshow-container">
+			<div class="mySlides fade">
+ 	<h1>Tour Trekking Cung ABC 11N10Đ</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<input type="button" value="Xem thêm" class="xt">
+</div>
+
+			<div class="mySlides fade">
+ 	<h1>Tour Trekking Cung ABC 9N8Đ</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<input type="button" value="Xem thêm" class="xt">
+</div>
+
+			<div class="mySlides fade">
+ 	<h1>Tour Trekking Cung EBC 12N11Đ</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<input type="button" value="Xem thêm" class="xt">
+</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		</div>
+			<div class="hdv">
+				<h1>HƯỚNG DẪN VIÊN</h1>
+				<div class="hdv1">
+					<img alt="buivanngoi" src="ngoi1_fmrw.jpg">
+					<h1>Bùi Văn Ngợi</h1>
+					<p>1 trong 3 nhà leo núi đầu tiên của Việt Nam chinh phục đỉnh Everest. Với nhiều năm kinh nghiệm leo núi và hướng dẫn du lịch sẽ giúp cho du khách đi cùng cảm thấy sự an toàn và biết thêm kiến thức suốt chuyến đi</p>
+				</div>
+				<div class="hdv2">
+					<img alt="phanthanhnhien" src="phan-thanh-nhien-1-1551679133567226596566-crop-15516791587102103744904.jpg">
+					<h1>Phan Thanh Nhiên</h1>
+					<p>1 trong 3 nhà leo núi đầu tiên của Việt Nam chinh phục đỉnh Everest. Với nhiều năm kinh nghiệm leo núi và tham gia các hoạt động nghệ thuật sẽ mang đến sự vui vẻ thoải mái suốt chuyên đi cho du khách</p>
+				</div>
+				<div class="hdv3">
+					<img alt="Nirmal Purja" src="nirmal-purja.jpg">
+					<h1>Nirmal Purja</h1>
+					<p>Một nhà leo núi người Nepal. Với kinh nghiệm dày dặn chinh phục nhiều đỉnh núi cao trên thế giới thì cung ABC là "sân nhà" của anh ấy. Là người bản địa nên sẽ đem đến cho du khách những trải nghiệm thật nhất gần gũi nhất trong suốt chuyến đi.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="sub">
+			<h1>Đăng ký thành viên Viettrekking để nhận ưu đãi</h1>
+			<form class="dktv">
+			<input type="text" placeholder="Your Email" class="dktvtext">
+			<input type="submit" value="Đăng Ký" class="dktvnut">
+			</form>
+		</div>
+		
+		<div class="blog">
+			<h1 class="blh1">BLOG</h1>
+			<div class="grid-blog">
+				<div class="blog1">
+					<h1>Kiến trúc văn hoá độc đáo cuối hành trình cung ABC</h1>
+					<input type="button" value="Xem thêm" class="bl1">
+				</div>
+				<div class="blog2"></div>
+				<div class="blog3">
+					<h1>Kiến trúc cổ xưa</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="blog4"></div>
+				<div class="blog5">
+					<h1>Văn hoá độc đáo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="slide2">
+			<i class="fas fa-angle-left trai"></i>
+			<i class="fas fa-angle-right phai"></i>
+			<div class="sl2-1">
+				<h1>Ưu đãi gia đình</h1>
+				<p>Bạn đang lên kế hoạch cho một chuyến đi chơi cùng cả gia đình nhưng vẫn chưa biết đi đâu? Đi đâu để cả ba mẹ và con đều có những hoạt động vui chơi phù hợp và vui? Tham khảo ngay 3 công viên VinWonders với các chủ đề thú vị khác nhau nha.</p>
+			</div>
+			<div class="sl2-2">
+				<img alt="hinhslide2" src="img20171206201713555.png">
+				<h1>Mẫu giày mới của Bitis</h1>
+				<input type="button" value="Xem thêm" class="sl2-2nut">
+			</div>
+			<div class="sl2-3">
+				<h1>Du lịch tự túc mà tiết kiệm?</h1>
+				<p>Còn gì hạnh phúc bằng khi chính bạn là người tự quyết định hành trình du lịch cho riêng mình? Trải nghiệm đúng ý, chi phí tiết kiệm! KKday không chỉ mang lại cho bạn ưu đãi du lịch hấp dẫn mà còn tặng thêm hoàn tiền khi thanh toán với Techcombank.</p>
+			</div>
+		</div>
+		
+		<div class="slide3">
+			<i class="fas fa-angle-left trai2"></i>
+			<i class="fas fa-angle-right phai2"></i>
+			<h1>Đánh giá</h1>
+			<img alt="ng1" src="terry-boynton-qOgtSCWDv2E-unsplash.jpg" class="ng1">
+			<img alt="ng1" src="samrat-khadka--8vOqlb6w7M-unsplash.jpg" class="ng2">
+			<img alt="ng2" src="janaya-dasiuk-0XPUk_8rvo4-unsplash.jpg" class="ng3">
+			<img alt="ng1" src="samrat-khadka-wzR7giCmDcE-unsplash.jpg" class="ng4">
+			<img alt="ng1" src="aaron-santelices-xlqijmOFEuw-unsplash.jpg" class="ng5">
+			<p>Trải nghiệm tuyệt vời! Hãy thử thách bản thân một lần trong đời, rong ruổi qua những nẻo đường xa chinh phục thiên nhiên.</p>
+		</div>
+		
+		<div class="grid-4">
+			<div class="grid4-1"></div>
+			<div class="grid4-2">
+				<h1>TÀ NĂNG PHAN DŨNG 3N2Đ</h1>
+				<p>Cung đường trekking dài 30km đẹp bậc nhất miền Nam bắt đầu từ xã Tà Năng, huyện Đức Trọng, Lâm Đồng băng qua xã Phan Dũng, huyện Tuy Phong, Bình Thuận đưa đến trải nghiệm khó quên cho mọi người. Và dưới đây là một số điều cần lưu ý:</p>
+				<div class="grid-ly">
+					<div class="ly1">• Không nên tự ý đi để đảm bảo độ an toàn.</div>
+					<div class="ly2">• Luyện tập thể lực trước đó 1 tuần.</div>
+					<div class="ly2">• Không đi trekking vào ban đêm.</div>
+					<div class="ly2">• Luôn bám sát đồng đội, tuyệt đối không được tách đoàn.</div>
+				</div>
+				
+			</div>
+			<div class="grid4-3">
+				<h1>Chinh phục đỉnh Fansipan</h1>
+				<p>Một chuyến đi bạn nên trải nghiệm để thấy Việt Nam hùng vĩ như thế nào</p>
+				<hr>
+				<i class="fab fa-facebook-square fb"></i>
+				<i class="fab fa-instagram ins"></i>
+				<i class="fab fa-twitter-square twi"></i>
+				<i class="fab fa-snapchat-square snap"></i>
+			</div>
+			<div class="grid4-4"></div>
+		</div>
+		
+		<div class="qcao2">
+			<h1>Bạn muốn trở thành một hướng dẫn viên du lịch? Hãy đồng hành cùng Viettrekking để thoả đam mê ngay hôm nay.</h1>
+			<input type="button" value="Chi tiết" class="qchdv">
+		</div>
+		
+		<div class="gth">
+			<h1>Tà Năng Phan Dũng cùng bạn bè</h1>
+			<div class="grid-gth">
+				<div class="gth1"></div>
+				<div class="gth2">
+					<i class="fas fa-cloud-sun-rain gt2"></i>
+					<h1>Đối mặt với thiên nhiên</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="gth3">
+					<i class="fas fa-running gt3" ></i>
+					<h1>Vượt qua bản thân</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="gth4">
+					<i class="fas fa-users gt4"></i>
+					<h1>Tinh thần đoàn kết</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="map">
+			<img alt="map" src="119684372-illustrations-design-concept-location-maps-with-road-follow-route-for-destination-drive-by-gps-navig.jpg">
+			<div class="contact">
+				<h1>CONTACT</h1>
+				<h3>ABC, XYZ, VietNam</h3>
+			</div>
+			<div class="phone">
+				<h1>PHONES</h1>
+				<h3>0123.456.789</h3>
+				<h3>0156.326.152</h3>
+			</div>
+			<div class="lienhe">
+				<form class="lienhe2">
+					<h1>Góp Ý</h1>
+					<input type="text" placeholder="Your Name" class="nm"><br>
+					<input type="email" placeholder="Your Email" class="nm"><br>
+					<textarea placeholder="Message" class="nm"></textarea><br>
+					<input type="submit" value="Gửi" class="gui">
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<div class="logo2">
+			<img alt="logo2" src="Logo-VTK-xanh-dương.png">
+			<i class="fab fa-facebook-square fb2"></i>
+			<i class="fab fa-instagram ins2"></i>
+			<i class="fab fa-twitter-square twi2"></i>
+			<i class="fab fa-snapchat-square snap2"></i>
+		</div>
+		<div class="dd">
+			<h1>Tìm kiếm nhanh</h1>
+				<div class="dd2">
+			<h3 class="d1">ABC</h3>
+			<h3 class="d2">EBC</h3>
+			<h3 class="d3">Tà Năng</h3>
+				</div>
+			<div class="dd3">
+				<h3 class="d4">Fansipan</h3>
+				<h3 class="d5">Nam Cát Tiên</h3>
+				<h3 class="d6">Tây Bắc</h3>
+			</div>
+		</div>
+		<div class="sb">
+			<h1>SUBCRIBE US</h1>
+			<form class="sbus">
+				<input type="email" placeholder="Your Email" class="sbus2">
+				<input type="submit" value="Subcribe" class="sbusnut">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
